@@ -1,0 +1,25 @@
+# Secrets — NEVER commit
+gemini_key.txt
+groq_key.txt
+cerebras_key.txt
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local Claude Code settings + backup clutter
+.claude/settings.local.json
+*.bak
+*.bak_*
+
+# Internal resume/scratch doc — keep local, never publish
+HANDOFF.md
+
+# Demo source videos — heavy; the committed GIFs in docs/ are what the README uses
+docs/*.mp4
+
+# Local data you can regenerate (optional — remove if you want to version it)
+# data/raw/

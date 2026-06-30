@@ -1,0 +1,308 @@
+{
+  "base_scored": [
+    {
+      "title": "Combination Sum",
+      "format_adherence": 2,
+      "insight_correctness": 0,
+      "complexity_correct": 0,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required section order, but its key insight and algorithm are incorrect (disallowing reuse) and its complexity analysis is wrong, while it does not leak full code.",
+      "total": 3
+    },
+    {
+      "title": "Happy Number",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 1,
+      "answer_not_leaked": 0,
+      "justification": "The answer follows the required format, gives a correct cycle‑detection insight and a working set‑based algorithm, but its space complexity is O(m) instead of O(1) and it provides a complete code snippet.",
+      "total": 5
+    },
+    {
+      "title": "Longest Common Subsequence",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required eight-section format, correctly presents the DP insight and recurrence, states the right O(m·n) time and space complexities, and contains no full code dump.",
+      "total": 7
+    },
+    {
+      "title": "Insert Interval",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer includes all required sections in order, the core insight aligns with the reference though the algorithmic details are muddled, the complexity claims are accurate, and no full code is leaked.",
+      "total": 6
+    },
+    {
+      "title": "Validate Binary Search Tree",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The candidate includes all required sections in order, correctly captures the range‑bound insight and linear‑time algorithm, states the right complexities, and does not dump full code.",
+      "total": 7
+    },
+    {
+      "title": "Clone Graph",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 1,
+      "answer_not_leaked": 0,
+      "justification": "The answer follows the required section order, correctly describes the hashmap‑based cloning algorithm, but overstates space complexity and provides full code rather than just pseudocode.",
+      "total": 5
+    },
+    {
+      "title": "Kth Smallest Element in a BST",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 1,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required section order, correctly describes the early‑exit in‑order traversal, but its time complexity claim is overly pessimistic.",
+      "total": 6
+    },
+    {
+      "title": "Number of 1 Bits",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 1,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required sections, but its key insight and optimized method differ from the reference’s Brian‑Kernighan technique, and its complexity claim is only partially aligned.",
+      "total": 5
+    },
+    {
+      "title": "Task Scheduler",
+      "format_adherence": 2,
+      "insight_correctness": 0,
+      "complexity_correct": 0,
+      "answer_not_leaked": 1,
+      "justification": "The candidate includes all required sections in order but offers an incorrect algorithmic insight and approach, and misstates the time and space complexities.",
+      "total": 3
+    },
+    {
+      "title": "Maximum Average Subarray I",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required structure, correctly identifies the sliding‑window insight and gives a proper O(n) time O(1) space solution without providing full code.",
+      "total": 7
+    },
+    {
+      "title": "Group Anagrams",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required format, presents the correct key insight and optimized algorithm, gives accurate complexities, and contains no full code.",
+      "total": 7
+    },
+    {
+      "title": "Largest Rectangle in Histogram",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The candidate follows the required section order, correctly captures the monotonic‑stack insight and algorithm, states the right O(n) time and O(n) space complexities, and does not dump full code.",
+      "total": 7
+    },
+    {
+      "title": "Valid Palindrome",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "All sections appear in the correct order, the two‑pointer approach is right but misses case‑insensitive handling, the complexity analysis is accurate, and no full code is provided.",
+      "total": 6
+    },
+    {
+      "title": "Merge Two Sorted Lists",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 0,
+      "justification": "The answer follows the required format, presents the correct two‑pointer insight and implementation, and states the right complexities, but it includes a complete code solution.",
+      "total": 6
+    },
+    {
+      "title": "House Robber II",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required format and states correct high‑level insight, but its DP adjustment for the circular case is flawed, while its complexity claims are accurate and no full code is leaked.",
+      "total": 6
+    },
+    {
+      "title": "Search a 2D Matrix",
+      "format_adherence": 2,
+      "insight_correctness": 0,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required sections, but its key insight and optimized approach use a different O(m+n) search rather than the reference’s binary‑search idea, though its complexity claim is correct and no code is leaked.",
+      "total": 5
+    }
+  ],
+  "base_avg": {
+    "format_adherence": 2.0,
+    "insight_correctness": 1.375,
+    "complexity_correct": 1.5,
+    "answer_not_leaked": 0.8125,
+    "total": 5.6875
+  },
+  "finetuned_scored": [
+    {
+      "title": "Combination Sum",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 0,
+      "answer_not_leaked": 1,
+      "justification": "Sections are in correct order, but the backtracking implementation is flawed and the complexity analysis is inaccurate, while no full code is provided.",
+      "total": 4
+    },
+    {
+      "title": "Happy Number",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 0,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required format and presents a correct cycle‑detection insight using a hash set, but its stated time and space complexities are inaccurate.",
+      "total": 5
+    },
+    {
+      "title": "Longest Common Subsequence",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The candidate includes all required sections in order, correctly describes the DP insight and recurrence, states the right O(m·n) time and space complexities, and only provides pseudocode without full code.",
+      "total": 7
+    },
+    {
+      "title": "Insert Interval",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 1,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required format, captures the right high‑level insight but its algorithmic details are flawed and its complexity claim is inaccurate, while avoiding full code leakage.",
+      "total": 5
+    },
+    {
+      "title": "Validate Binary Search Tree",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required structure, captures the right idea of passing bounds but its described algorithm is flawed, while its complexity claims are accurate and no full code is leaked.",
+      "total": 6
+    },
+    {
+      "title": "Clone Graph",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 0,
+      "justification": "The answer follows the required structure and presents a correct hashmap‑based cloning algorithm with accurate complexity, but it includes a full code snippet, violating the no‑code rule.",
+      "total": 6
+    },
+    {
+      "title": "Kth Smallest Element in a BST",
+      "format_adherence": 2,
+      "insight_correctness": 0,
+      "complexity_correct": 0,
+      "answer_not_leaked": 1,
+      "justification": "The candidate follows the required sections order, but its key insight and algorithm are incorrect (using reverse in-order for k‑th smallest) and its complexity analysis is wrong, though it does not leak full code.",
+      "total": 3
+    },
+    {
+      "title": "Number of 1 Bits",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 1,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required structure, correctly presents Brian Kernighan’s algorithm, but misstates the time complexity as O(log n) instead of the precise O(k) (set‑bit count).",
+      "total": 6
+    },
+    {
+      "title": "Task Scheduler",
+      "format_adherence": 2,
+      "insight_correctness": 0,
+      "complexity_correct": 0,
+      "answer_not_leaked": 1,
+      "justification": "The response includes all required sections but suggests an incorrect greedy sorting algorithm and misstates the complexity, failing to capture the correct heap‑based insight.",
+      "total": 3
+    },
+    {
+      "title": "Maximum Average Subarray I",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 1,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required sections, presents a correct sliding‑window insight and O(n) algorithm, but misstates the space complexity as O(n) instead of O(1).",
+      "total": 6
+    },
+    {
+      "title": "Group Anagrams",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required format, presents a correct canonical‑signature insight and matching optimized algorithm, and gives accurate time and space complexities without providing full code.",
+      "total": 7
+    },
+    {
+      "title": "Largest Rectangle in Histogram",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required format, correctly identifies the monotonic‑stack idea and its O(n) complexity, but the stack condition is reversed, making the algorithmic details flawed.",
+      "total": 6
+    },
+    {
+      "title": "Valid Palindrome",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required structure, correctly captures the two‑pointer insight and optimized algorithm, states the right O(n) time and O(1) space complexities, and provides only descriptive steps without full code.",
+      "total": 7
+    },
+    {
+      "title": "Merge Two Sorted Lists",
+      "format_adherence": 2,
+      "insight_correctness": 2,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The candidate includes all required sections in order, correctly describes the two‑pointer merge insight and algorithm, and states the right O(n+m) time and O(1) space without providing full code.",
+      "total": 7
+    },
+    {
+      "title": "House Robber II",
+      "format_adherence": 2,
+      "insight_correctness": 1,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The answer follows the required structure and correctly identifies the two‑case insight, but its optimized approach misstates which house to exclude and lacks a proper DP recurrence, though its complexity claims are accurate.",
+      "total": 6
+    },
+    {
+      "title": "Search a 2D Matrix",
+      "format_adherence": 2,
+      "insight_correctness": 0,
+      "complexity_correct": 2,
+      "answer_not_leaked": 1,
+      "justification": "The candidate follows the required sections, but their key insight and algorithm differ from the reference’s global binary‑search approach, even though the stated O(m+n) complexity is correct.",
+      "total": 5
+    }
+  ],
+  "finetuned_avg": {
+    "format_adherence": 2.0,
+    "insight_correctness": 1.3125,
+    "complexity_correct": 1.3125,
+    "answer_not_leaked": 0.9375,
+    "total": 5.5625
+  }
+}

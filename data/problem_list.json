@@ -1,0 +1,68 @@
+{
+  "hash_map": [
+    "Two Sum", "Contains Duplicate", "Valid Anagram", "Group Anagrams",
+    "Subarray Sum Equals K", "Longest Consecutive Sequence", "First Unique Character in a String",
+    "Top K Frequent Elements"
+  ],
+  "two_pointers": [
+    "Valid Palindrome", "Two Sum II Input Array Is Sorted", "3Sum", "Container With Most Water",
+    "Trapping Rain Water", "Move Zeroes", "Remove Duplicates from Sorted Array"
+  ],
+  "sliding_window": [
+    "Longest Substring Without Repeating Characters", "Best Time to Buy and Sell Stock",
+    "Longest Repeating Character Replacement", "Minimum Window Substring",
+    "Permutation in String", "Maximum Average Subarray I", "Fruit Into Baskets"
+  ],
+  "stack": [
+    "Valid Parentheses", "Min Stack", "Daily Temperatures",
+    "Evaluate Reverse Polish Notation", "Largest Rectangle in Histogram", "Next Greater Element I"
+  ],
+  "binary_search": [
+    "Binary Search", "Search in Rotated Sorted Array", "Find Minimum in Rotated Sorted Array",
+    "Search a 2D Matrix", "Koko Eating Bananas", "Find First and Last Position in Sorted Array"
+  ],
+  "linked_list": [
+    "Reverse Linked List", "Merge Two Sorted Lists", "Linked List Cycle", "Reorder List",
+    "Remove Nth Node From End of List", "Add Two Numbers", "Copy List with Random Pointer"
+  ],
+  "trees": [
+    "Invert Binary Tree", "Maximum Depth of Binary Tree", "Diameter of Binary Tree",
+    "Balanced Binary Tree", "Same Tree", "Subtree of Another Tree",
+    "Lowest Common Ancestor of a BST", "Binary Tree Level Order Traversal",
+    "Validate Binary Search Tree", "Kth Smallest Element in a BST"
+  ],
+  "tries": [
+    "Implement Trie Prefix Tree", "Design Add and Search Words Data Structure"
+  ],
+  "heap": [
+    "Kth Largest Element in an Array", "Find Median from Data Stream",
+    "Task Scheduler", "Merge K Sorted Lists"
+  ],
+  "backtracking": [
+    "Subsets", "Combination Sum", "Permutations", "Word Search",
+    "Palindrome Partitioning", "Letter Combinations of a Phone Number", "N-Queens"
+  ],
+  "graphs": [
+    "Number of Islands", "Clone Graph", "Course Schedule", "Pacific Atlantic Water Flow",
+    "Rotting Oranges", "Word Ladder", "Number of Connected Components in an Undirected Graph"
+  ],
+  "dp_1d": [
+    "Climbing Stairs", "House Robber", "House Robber II", "Coin Change",
+    "Longest Increasing Subsequence", "Word Break", "Decode Ways", "Maximum Subarray"
+  ],
+  "dp_2d": [
+    "Unique Paths", "Longest Common Subsequence", "Edit Distance",
+    "Longest Palindromic Substring", "Partition Equal Subset Sum"
+  ],
+  "greedy": [
+    "Jump Game", "Jump Game II", "Gas Station", "Hand of Straights",
+    "Merge Intervals", "Insert Interval", "Non-overlapping Intervals"
+  ],
+  "bit_manipulation": [
+    "Single Number", "Number of 1 Bits", "Counting Bits", "Reverse Bits",
+    "Missing Number", "Sum of Two Integers"
+  ],
+  "math": [
+    "Pow(x, n)", "Happy Number", "Plus One", "Roman to Integer"
+  ]
+}
