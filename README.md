@@ -8,7 +8,8 @@
 &nbsp;·&nbsp; **Adapter:** [`MoistPotato/dsa-reasoning-coach-7b-lora`](https://huggingface.co/MoistPotato/dsa-reasoning-coach-7b-lora)
 
 *(The demo runs on a GPU that scales to zero when idle — the first request after a while pays a
-~30–60s cold start, then streams.)*
+~30–60s cold start, then streams. It runs on free GPU credits, so it may be paused at times; the
+GIFs below are a full walkthrough either way.)*
 
 ![The model derives a solution, streaming the 8-section reasoning](docs/demo.gif)
 
